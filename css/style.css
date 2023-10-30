@@ -1,5 +1,61 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    max-width: 1400px;
+    
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    
+}
+
+
+.card{
+    width: calc(33% - 40px);
+    border: 1px #DDDDDD solid;
+}
+
+.text{
+    text-align: left;
+    padding: 6px 10px ;
+    font-size: 16px;
+    
+
+}
+
+.brand_name{
+    font-size: 14px;
+}
+
+.price{
+   font-size: 14px;
+}
+
+.img {
+    width: 100%;
+}
+
+
